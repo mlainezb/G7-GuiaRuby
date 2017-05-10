@@ -5,8 +5,8 @@ b = [:azul, :verde, :amarillo]
 
 
 #Ejercicio 1
-a.each_with_index do |element, index|
-	a[index]=b[element]
+a.each_with_index do |i|	
+puts "#{i} :#{b.reverse[i - 1]}, #{c[i - 1]}"
+
 end
 
-puts "#{a}"	
